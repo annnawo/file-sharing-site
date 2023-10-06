@@ -1,0 +1,129 @@
+body *,
+input[type="submit"] {
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.login_layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_div {
+    padding: 2rem 4rem 0;
+}
+
+.index_h1 {
+    border-bottom: solid black;
+    padding: 0 0 1rem 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+input[type="text"] :not(.new_name),
+.username {
+    width: 70%;
+    height: 4rem;
+    font-size: 2rem;
+    font-style: italic;
+    margin-right: 2rem;
+    padding-left: 2rem;
+}
+
+.user_submit {
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 1.1rem;
+    margin-left: 2rem;
+    width: 30%;
+}
+
+.form {
+    display: flex;
+    padding: 0 4rem 0 5rem;
+}
+
+.error_msg {
+    padding: 4rem;
+}
+
+.password_fail {
+    padding: 1rem;
+    border: solid black;
+}
+
+.mgmt_title {
+    padding-bottom: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: solid .09rem black;
+}
+
+.mgmt_h1 {
+    padding-top: 1rem;
+    margin: 0 0 0 1rem;
+}
+
+.submit_mgmt {
+    margin-top: 2rem;
+    height: 4rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 1.3rem;
+    width: 10rem;
+}
+
+.sort_b {
+    font-weight: bold;
+    height: 1.5rem;
+    width: 3.75rem;
+}
+
+.sm1,
+.sm2 {
+    margin-right: 3rem;
+}
+
+.sm3 {
+    margin-right: 2rem;
+}
+
+.mgmt_container {
+    padding: 0 1rem;
+}
+
+.mgmt_h2 {
+    font-size: 2.25rem;
+    padding-bottom: 1rem;
+    border-bottom: solid .09rem black;
+}
+
+.mgmt_main {
+    padding: 2rem 4rem;
+}
+
+.radio_select {
+    margin: 1rem 0;
+}
+
+.view_open {
+    padding: 1.5rem 0 1.5rem;
+}
+
+.sort {
+    padding: 0 1rem 1.75rem;
+}
+
+.submit_logout {
+    margin-bottom: 1.25rem;
+}
+
+.new_name {
+    width: 14rem;
+    height: 3.5rem;
+    font-style: italic;
+    padding: 0 1rem;
+    margin-bottom: .5rem;
+}
